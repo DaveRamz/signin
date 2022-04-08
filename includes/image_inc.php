@@ -5,7 +5,9 @@
         if( !empty( $_FILES["image"]["name"] ) ){
 
             $fileName = basename($_FILES["image"]["name"]);
+            echo 'Prueba para ver si puedo ver el name';
             $imageType = strtolower( pathinfo($fileName,PATHINFO_EXTENSION) );
+            $imageType = $imageType . 'hola';
             $allowedTypes = array('png','jpg','gif');
             if( in_array($imageType,$allowedTypes) ){
 
@@ -15,7 +17,7 @@
                 ImageContr::withImage($realImage)->uploadImage();
 
             }else{
-                header("location: ../upload.php?error=non-valid-extension");
+                header("location: ../index.php?error=non-valid-extension");
                 exit();
             }
         }
