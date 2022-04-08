@@ -9,7 +9,7 @@
                     <form class="form" action="./includes/image_inc.php" method="post">
                         <h3 class="text-center text-info">Busca por ID</h3>
                         <div class="form-group">
-                            <label class="text-info">Image ID: </label><br>
+                            <label class="text-info">ID de la Imagen: </label><br>
                             <input type="text" name="imageId" id="imageId" class="form-control"/>
                         </div>
                         <div class="form-group">

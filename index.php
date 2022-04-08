@@ -17,7 +17,7 @@
                     <?php 
                         }else{
                     ?>
-                        <h3 class="text-center text-info">Login</h3>
+                        <h3 class="text-center text-info">Test</h3>
                     <?php 
                         }
                     ?>
