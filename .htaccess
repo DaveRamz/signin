@@ -1,0 +1,15 @@
+## Propiedad para que funcione en GoDaddy
+Options +Multiviews
+
+## 1. Remover las extensiones de la URL
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+## 2. Manejo de paginas de errores
+ErrorDocument 404 https://http.cat/404
+
+## 3. Proteccion de los archivos de codigo
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} \/+(.+?)\.classes(.+) [NC]
+RewriteRule . https://http.cat/403 [L]

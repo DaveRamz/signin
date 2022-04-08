@@ -1,0 +1,40 @@
+body {
+    background-image: url('../img/corps.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#news #searchbar {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+}
+
+.container {
+    border: 1px solid #9c9c9c;
+    background-color: #EAEAEA;
+    padding: 20px;
+    width: 30%;
+    position: absolute;
+    margin-top: 100px;
+}
+
+.container_news {
+    border: 1px solid #9c9c9c;
+    background-color: #EAEAEA;
+    padding: 20px;
+    width: 100%;
+    position: absolute;
+    margin-top: 100px;
+}
+
+.comment_row {
+    color: black;
+    padding: 10px;
+}
+
+.submit_button {
+    margin-top: 20px;
+}
