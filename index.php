@@ -27,7 +27,7 @@
                             <input type="text" name="email" id="email" class="form-control">
                         </div>
                         <div class="form-group">
-                            <label class="text-info">Password:</label>
+                            <label class="text-info">Contra:</label>
                             <input type="text" name="password" id="password" class="form-control">
                         </div>
                         <div class="form-group">
