@@ -17,7 +17,7 @@
                 ImageContr::withImage($realImage)->uploadImage();
 
             }else{
-                header("location: ../index.php?error=non-valid-extension");
+                header("location: ../test.php?error=non-valid-extension");
                 exit();
             }
         }
