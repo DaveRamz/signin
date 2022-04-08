@@ -14,8 +14,6 @@
                 $position = strpos($html,'</td id="'.htmlspecialchars($comment['PARENT']).'">',0);
                 $subComment = '</tr><tr><td class="comment_row">--'. htmlspecialchars($comment['TEXT']) .'</td id="'.htmlspecialchars($comment['ID']).'"></tr>';
                 $html = substr($html,0,$position) . $subComment . substr($html,$position);
-                // substr ( TEXT, DESDE DONDE INICIA, OPT: HASTA DONDE TERMINA )
-                // strpos ( TEXT, CUAL ES EL TEXTO A BUSCAR, OPT: INICIE DESDE UN PUNTO )
             }
         }
         $html .= '</table>';

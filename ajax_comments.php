@@ -7,7 +7,7 @@
             <div class="col-md-6">
                 <div class="col-md-12">
                     <form class="form">
-                        <h3 class="text-center text-info">::: Search News :::</h3>
+                        <h3 class="text-center text-info">::: Busqueda de noticias :::</h3>
                         <div class="form-group">
                             <label for="newsId" class="text-info">News ID:</label><br>
                             <input type="text" name="newsId" id="newsId" class="form-control">
